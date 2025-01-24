@@ -1,9 +1,14 @@
-.product-filter {
+body {
+    background-color: #F3E9D2;
+}
+.
+product-filter {
     display: flex;
 }
 
 .product-filter h1 {
     flex-grow: 1;
+    font-family:'Lucida Handwriting';
 }
 
 .sort {
@@ -24,11 +29,11 @@
     padding: 2%;
     flex: 1 16%;
     display: flex;
+    
 }
 
 .product-image img {
-    width: 100%;
-    max-width: 200px;
+    max-width: 100%;
     height: auto;
 }
 
@@ -37,8 +42,7 @@
 }
 
 img {
-    width: 200px;
-    height: 200px;
+
     opacity: 1;
     display: block;
     transition: .5s ease;
@@ -78,6 +82,15 @@ img {
     }
 }
 
-.h5 {
+.product-info h5 {
+    font-family:'Lucida Handwriting';
     justify-content: baseline;
+    color: #A37B73;
 }
+
+.product-info h4 {
+    font-family: 'Garamond';
+    justify-content: baseline;
+    color: #A37B73; 
+}
+
