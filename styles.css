@@ -9,6 +9,7 @@ product-filter {
 .product-filter h1 {
     flex-grow: 1;
     font-family:'Lucida Handwriting';
+    color: #513C2C;
 }
 
 .sort {
