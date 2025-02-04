@@ -1,7 +1,7 @@
 body {
     background-color: #F3E9D2;
 }
-.
+
 product-filter {
     display: flex;
 }
@@ -19,6 +19,8 @@ product-filter {
 .collection-sort {
     display: flex;
     flex-direction: column;
+    color: #513C2C;
+    font-weight: bold;
 }
 
 .products {
@@ -43,7 +45,6 @@ product-filter {
 }
 
 img {
-
     opacity: 1;
     display: block;
     transition: .5s ease;
