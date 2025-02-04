@@ -90,7 +90,7 @@ img {
 }
 
 .product-info h4 {
-    font-family: 'Garamond';
+    font-family:"Sofia", sans-serif; 
     justify-content: baseline;
     color: #A37B73; 
 }
